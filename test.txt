@@ -1,0 +1,4 @@
+create math question paper with following details class 10, topic = Linear Algebra, Level = easy, pattern = MCQ, number of questions = 6
+
+give me 3 questions of class 10, topic = linear equations, Level = medium, pattern = Reasoning & Assertion
+
