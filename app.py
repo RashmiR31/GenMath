@@ -21,7 +21,7 @@ with st.form(key="question_paper_form"):
 
     difficulty_level = st.radio("Select Difficulty level",("Easy","Medium","Hard","Toughest","Challenging"))
 
-    question_pattern_options = ["MCQ","Reasoning & ASsertion", "Fill in the blanks","Short Answer","Word problems","Numericals","Long Answer"]
+    question_pattern_options = ["MCQ","Reasoning & Assertion", "Fill in the blanks","Short Answer","Word problems","Numericals","Long Answer"]
     question_pattern = st.selectbox("Select question pattern",question_pattern_options)
 
     number_of_questions = st.number_input("Number of Questions", min_value=1, max_value=100, value=10)
