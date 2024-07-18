@@ -6,7 +6,7 @@ st.title("Mathematics Question Paper Generator")
 
 # form for the question paper details
 with st.form(key="question_paper_form"):
-    class_options=["Class 7","Class 8", "Class 9", "Class 10", "Class 11", "Class 12"]
+    class_options=["Class 6","Class 7","Class 8", "Class 9", "Class 10", "Class 11", "Class 12"]
     selected_class = st.selectbox("Select Class", class_options)
 
     topic = st.text_input("Topic")
